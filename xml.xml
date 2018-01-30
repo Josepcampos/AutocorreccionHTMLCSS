@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<questions>
+	<question id="q01">
+		<type>text</type>
+			<title>¿Cuál es el nombre del conjunto de diversas pistas, en un disco duro magnético, alineadas verticalmente una para cada cara?</title>
+			<answer>cilindro</answer>
+	</question>
+	
+	<question id="q02">
+		<type>text</type>
+			<title>Escriba a continuación la longitud máxima, en centímetros, que puede tener un Ploter convencional.</title>
+			<answer>157</answer>
+	</question>
+	
+	<question id="q03">
+		<type>select</type>
+			<title>¿Qué tecnología utiliza principalmente una impresora de tinta sólida?</title>
+				<option>Inyección</option>
+				<option>Térmica</option>
+				<option>Láser</option>
+				<option>Marcado</option>
+				<answer>1</answer>
+	</question>
+	
+	<question id="q04">
+		<type>select</type>
+			<title>¿Qué tipos de SAIs existen?</title>
+				<option>En línea, activos y pasivos</option>
+				<option>Interactivos y pasivos</option>
+				<option>Pasivos, interactivos y en línea</option>
+				<option>Activo, pasivo, en línea e interactivo</option>
+				<answer>2</answer>
+	</question>
+	
+	<question id="q05">
+		<type>radio</type>
+			<title>La disposición de teclado DVORAK es utilizada principalmente por:</title>
+				<option>Personas que utilizan el teclado intensamente, como trabajadores de oficina.</option>
+				<option>Trabajadores de alta mar</option>
+				<option>Personas con discapacidad, ya que es un teclado que se puede utilizar con una sola mano</option>
+				<option>Centros de salud, ya que son teclados que se pueden desinfectar</option>
+				<answer>2</answer>
+	</question>
+	
+	<question id="q06">
+		<type>radio</type>
+			<title>¿Cuáles son las principales características de los discos duros?</title>
+				<option>Interfaz, tamaño del buffer, tiempo de acceso, velocidad de transferencia, capacidad</option>
+				<option>Tamaño del buffer, velocidad de rotación, número de caras, clúster</option>
+				<option>Conexión, velocidad de transferencia, tamaño del buffer, tamaño físico, particiones</option>
+				<answer>0</answer>
+	</question>
+
+	<question id="q07">
+  		<type>multiple</type>
+			<title>Seleccione las partes físicas internas de un disco duro magnético (HDD) (Mantenga la tecla 'Ctrl' pulsada para seleccionar más de una respuesta).</title>
+				<option>Discos</option>
+				<option>Pista</option>
+				<option>PDP</option>
+				<option>Cilindro</option>
+				<option>Cinta</option>
+				<option>Cluster</option>
+				<option>Caras</option>
+   				<answer>0</answer>
+				<answer>1</answer>
+				<answer>3</answer>
+				<answer>5</answer>
+				<answer>6</answer>
+	</question>
+
+	<question id="q08">
+  		<type>multiple</type>
+			<title>Las principales características de los monitores son: (Mantenga la tecla 'Ctrl' pulsada para seleccionar más de una respuesta).</title>
+				<option>Dimensiones</option>
+				<option>Resolución</option>
+				<option>Monocromático - Color</option>
+				<option>Grosor</option>
+				<option>Frecuencia</option>
+				<answer>0</answer>
+				<answer>1</answer>
+				<answer>2</answer>
+				<answer>4</answer>
+	</question>
+
+	<question id="q09">
+		<type>checkbox</type>
+			<title>Según la tecnología de funcionamiento, las tarjetas de memoria las podemos dividir en:</title>
+				<option>NOR: acceso aleatorio y recuperación de datos de hasta 1 byte</option>
+				<option>NAND: acceso secuencial y recuperación de datos de hasta 1 byte</option>
+				<option>NAND: acceso aleatorio y recuperación de datos en bloques (páginas)</option>
+				<option>NOR: acceso secuencial y recuperación de datos en bloques (páginas)</option>
+				<option>NAND: acceso secuencial y recuperación de datos en bloques (páginas)</option>
+				<answer>0</answer>
+				<answer>4</answer>
+	</question>
+			
+	<question id="q10">
+  		<type>checkbox</type>
+			<title>¿Qué tipos de impresoras existen según su tecnología de impresión</title>
+				<option>Térmicas</option>
+				<option>Tinta sólida</option>
+				<option>Plóter</option>
+				<option>Inyección</option>
+				<option>Láser</option>
+				<answer>0</answer>
+				<answer>3</answer>
+				<answer>4</answer>
+	</question>
+</questions>				
