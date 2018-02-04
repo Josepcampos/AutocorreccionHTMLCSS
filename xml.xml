@@ -4,6 +4,7 @@
 
 <questions>
 	<question id="q01">
+		<number>Pregunta 1</number>
 		<type>text</type>
 			<title>¿Cuál es el nombre del conjunto de diversas pistas, en un disco duro magnético, alineadas verticalmente una para cada cara?.</title>
 			<answer>cilindro</answer>
