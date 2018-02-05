@@ -1,4 +1,4 @@
-### URL XML https://rawgit.com/Josepcampos/Validacion_XML/master/xml.xml
+### URL XML
 
 # AutocorreccionHTMLCSS
 
