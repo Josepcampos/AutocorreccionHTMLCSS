@@ -11,12 +11,14 @@
 	</question>
 	
 	<question id="q02">
+		<number>Pregunta 2</number>
 		<type>text</type>
 			<title>Escriba a continuación la longitud máxima, en centímetros, que puede tener un Ploter convencional.</title>
 			<answer>157</answer>
 	</question>
 	
 	<question id="q03">
+		<number>Pregunta 3</number>
 		<type>select</type>
 			<title>¿Qué tecnología utiliza principalmente una impresora de tinta sólida?</title>
 				<option>Inyección</option>
@@ -27,6 +29,7 @@
 	</question>
 	
 	<question id="q04">
+		<number>Pregunta 4</number>
 		<type>select</type>
 			<title>¿Qué tipos de SAIs existen?</title>
 				<option>En línea, activos y pasivos</option>
@@ -37,6 +40,7 @@
 	</question>
 	
 	<question id="q05">
+		<number>Pregunta 5</number>
 		<type>radio</type>
 			<title>La disposición de teclado DVORAK es utilizada principalmente por:</title>
 				<option>Personas que utilizan el teclado intensamente, como trabajadores de oficina.</option>
@@ -47,6 +51,7 @@
 	</question>
 	
 	<question id="q06">
+		<number>Pregunta 6</number>
 		<type>radio</type>
 			<title>¿Cuáles son las principales características de los discos duros?</title>
 				<option>Interfaz, tamaño del buffer, tiempo de acceso, velocidad de transferencia, capacidad</option>
@@ -56,6 +61,7 @@
 	</question>
 
 	<question id="q07">
+		<number>Pregunta 7</number>
   		<type>multiple</type>
 			<title>Seleccione las partes físicas internas de un disco duro magnético (HDD) (Mantenga la tecla 'Ctrl' pulsada para seleccionar más de una respuesta).</title>
 				<option>Discos</option>
@@ -73,6 +79,7 @@
 	</question>
 
 	<question id="q08">
+		<number>Pregunta 8</number>
   		<type>multiple</type>
 			<title>Las principales características de los monitores son: (Mantenga la tecla 'Ctrl' pulsada para seleccionar más de una respuesta).</title>
 				<option>Dimensiones</option>
@@ -87,6 +94,7 @@
 	</question>
 
 	<question id="q09">
+		<number>Pregunta 9</number>
 		<type>checkbox</type>
 			<title>Según la tecnología de funcionamiento, las tarjetas de memoria las podemos dividir en:</title>
 				<option>NOR: acceso aleatorio y recuperación de datos de hasta 1 byte</option>
@@ -99,6 +107,7 @@
 	</question>
 			
 	<question id="q10">
+		<number>Pregunta 10</number>
   		<type>checkbox</type>
 			<title>¿Qué tipos de impresoras existen según su tecnología de impresión</title>
 				<option>Térmicas</option>
