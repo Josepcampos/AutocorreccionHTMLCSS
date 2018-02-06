@@ -1,5 +1,4 @@
-### URL XML https://rawgit.com/Josepcampos/Validacion_XML/master/xml.xml
-
+### URL XML https://rawgit.com/Josepcampos/Validacion_XML/master/xml/preguntas.xml
 # AutocorreccionHTMLCSS
 
 ## Crear una aplicación web con las siguientes instrucciones:
