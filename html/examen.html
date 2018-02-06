@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<script src="js/javascript.js"></script>
+		<title>Instrucciones del examen</title>
+		<link rel="stylesheet" type="text/css" media="screen and (min-width:700px)" href="css/horizontal.css">
+		<script src="js/javascript.js"></script>
+	</head>
+	<body onbeforeunload="return cerrarExamen()">
+		<div class="arribaexamen">
+			<div class="menu">
+				<ul id="horizontal">
+					<li class="hori"><div id="examendiv">Examen</div></li>
+				</ul>
+			</div>
+		</div>
+		<ul id="vertical">
+				<li class="vert"><a href="#p1">Pregunta 1</a></li>
+				<li class="vert"><a href="#p2">Pregunta 2</a></li>
+				<li class="vert"><a href="#p3">Pregunta 3</a></li>
+				<li class="vert"><a href="#p4">Pregunta 4</a></li>
+				<li class="vert"><a href="#p5">Pregunta 5</a></li>
+				<li class="vert"><a href="#p6">Pregunta 6</a></li>
+				<li class="vert"><a href="#p7">Pregunta 7</a></li>
+				<li class="vert"><a href="#p8">Pregunta 8</a></li>
+				<li class="vert"><a href="#p9">Pregunta 9</a></li>
+				<li class="vert"><a href="#p10">Pregunta 10</a></li>
+			</ul>
+		<div class="divprincipal">
+		
+		<!--TEXT 1 2, SELECT SIMPLE 3 4, RADIO 5 6, SELECT MULTIPLE 7 8, CHECKBOX 9 10 -->
+		<form id="formulario">
+		
+		
+		<a name="p1"></a><h2 id="h21"></h2>
+		<p id="q1"></p>
+		<input type="text" name="p2r"><br>
+		
+		<a name="p2"></a><h2 id="h22"></h2>
+		<p id="q2"></p>
+		<input type="text"><br>
+		
+		<a name="p3"></a><h2 id="h23">Pregunta 3</h2>
+		<p id="q3">¿Qué tecnología utiliza una impresora de tinta sólida?</p>
+		<select name="pregunta3">
+			<option></option>
+			<option></option>
+			<option></option>
+			<option></option>
+			<!--<option>Inyección</option>
+			<option>Térmica</option>
+			<option>Láser</option>
+			<option>Marcado</option>-->
+		</select>
+		
+		<a name="p4"><h2 id="h24">Pregunta 4</h2>
+		<p id="q4">¿Qué tipos de SAIs existen=</p>
+		<select name="pregunta4">
+			<option>En línea, activos y pasivos</option>
+			<option>Interactivos y pasivos</option>
+			<option>Pasivos, interactivos y en línea</option>
+			<option>Activo, pasivo, en línea e interactivos</option>
+		</select>
+		
+		<a name="p5"></a><h2 id="h25"></h2>
+		<p id="q5">La disposición de teclado DVORAK es utilizada por:</p>
+		<input type="radio">Personas que utilizan el teclado intensamente, como trabajadores de oficina.<br>
+		<input type="radio">Trabajadores de alta mar<br>
+		<input type="radio">Personas con discapacidad, ya que es un teclado que se puede utilizar con una sola mano<br>
+		<input type="radio">Centros de salud, ya que son teclados que se pueden desinfectar<br>
+		
+		<a name="p6"></a><h2 id="h26">Pregunta 6</h2>
+		<p id="q6">¿Cuáles son las principales características de los discos duros?</p>
+		<input type="radio">Interfaz, tamaño del buffer, tiempo de acceso, velocidad de transferencia, capacidad<br>
+		<input type="radio">Tamaño del buffer, velocidad de rotación, número de caras, clúster<br>
+		<input type="radio">Conexión, velocidad de transferencia, tamaño del buffer, tamaño físico, particiones<br>
+		
+		<a name="p7"></a><h2 id="h27">Pregunta 7</h2>
+		<p id="q7">Seleccione las partes físicas internas de un disco duro magnético (HDD) (Mantenga la tecla 'Ctrl' para seleccionar más de una respuesta).</p>
+		<select name="pregunta1" multiple size="7">
+			<option name="p1r" value="p1r">Discos</option>
+			<option name="p1r" value="p1r">Pista</option>
+			<option name="p1r" value="p1r">PDP</option>
+			<option name="p1r" value="p1r">Cilindro</option>
+			<option name="p1r" value="p1r">Cinta</option>
+			<option name="p1r" value="p1r">Cluster</option>
+			<option name="p1r" value="p1r">Caras</option>
+		</select>
+		
+		<a name="p8"></a><h2 id="h28">Pregunta 8</h2>
+		<p id="q8">Las principales características de los monitores son:</p>
+		<select name="pr9" multiple size="5">
+			<option>Dimensiones</option>
+			<option>Resolución</option>
+			<option>Monocromático / Color</option>
+			<option>Grosor</option>
+			<option>Frecuencia</option>
+		</select>
+	
+		<a name="p9"></a><h2 id="h29">Pregunta 9</h2>
+		<p id="q9">Según la tecnología de funcionamiento, las tarjetas de memoria las podemos dividir en:</p>
+		<input type="checkbox">NOR: acceso aleatorio y recuperación de datos de hasta 1 byte<br>
+		<input type="checkbox">NAND: acceso secuencial y recuperación de datos de hasta 1 byte<br>
+		<input type="checkbox">NAND: acceso aleatorio y recuperación de datos en bloques (páginas)<br>
+		<input type="checkbox">NOR: acceso secuencial y recuperación de datos en bloques (páginas)<br>
+		<input type="checkbox">NAND: acceso secuencial y recuperación de datos en bloques (páginas)<br>
+		
+		<a name="p10"></a><h2 id="h210">Pregunta 10</h2>
+		<p id="q10">¿Qué tipos de impresoras existen según su tecnología de impresión?</p>
+		<input type="checkbox">Térmicas<br>
+		<input type="checkbox">Tinta sólida<br>
+		<input type="checkbox">Ploter<br>
+		<input type="checkbox">Inyección<br>
+		<input type="checkbox">Láser<br><br><br>
+		<input type="button" onclick="corregir()" value="Corregir">
+		</form>
+		</div>
+	</body>
+</html>
