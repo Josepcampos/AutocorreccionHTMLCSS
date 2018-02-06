@@ -1,0 +1,145 @@
+{
+		"question": [
+			{
+				"number": "Pregunta 1",
+				"type": "text",
+				"title": "¿Cuál es el nombre del conjunto de diversas pistas, en un disco duro magnético, alineadas verticalmente una para cada cara?.",
+				"answer": "cilindro",
+				"_id": "q01"
+			},
+			{
+				"number": "Pregunta 2",
+				"type": "text",
+				"title": "Escriba a continuación la longitud máxima, en centímetros, que puede tener un Ploter convencional.",
+				"answer": "157",
+				"_id": "q02"
+			},
+			{
+				"number": "Pregunta 3",
+				"type": "select",
+				"title": "¿Qué tecnología utiliza principalmente una impresora de tinta sólida?",
+				"option": [
+					"Inyección",
+					"Térmica",
+					"Láser",
+					"Marcado"
+				],
+				"answer": "1",
+				"_id": "q03"
+			},
+			{
+				"number": "Pregunta 4",
+				"type": "select",
+				"title": "¿Qué tipos de SAIs existen?",
+				"option": [
+					"En línea, activos y pasivos",
+					"Interactivos y pasivos",
+					"Pasivos, interactivos y en línea",
+					"Activo, pasivo, en línea e interactivo"
+				],
+				"answer": "2",
+				"_id": "q04"
+			},
+			{
+				"number": "Pregunta 5",
+				"type": "radio",
+				"title": "La disposición de teclado DVORAK es utilizada principalmente por:",
+				"option": [
+					"Personas que utilizan el teclado intensamente, como trabajadores de oficina.",
+					"Trabajadores de alta mar",
+					"Personas con discapacidad, ya que es un teclado que se puede utilizar con una sola mano",
+					"Centros de salud, ya que son teclados que se pueden desinfectar"
+				],
+				"answer": "2",
+				"_id": "q05"
+			},
+			{
+				"number": "Pregunta 6",
+				"type": "radio",
+				"title": "¿Cuáles son las principales características de los discos duros?",
+				"option": [
+					"Interfaz, tamaño del buffer, tiempo de acceso, velocidad de transferencia, capacidad",
+					"Tamaño del buffer, velocidad de rotación, número de caras, clúster",
+					"Conexión, velocidad de transferencia, tamaño del buffer, tamaño físico, particiones"
+				],
+				"answer": "0",
+				"_id": "q06"
+			},
+			{
+				"number": "Pregunta 7",
+				"type": "multiple",
+				"title": "Seleccione las partes físicas internas de un disco duro magnético (HDD) (Mantenga la tecla 'Ctrl' pulsada para seleccionar más de una respuesta).",
+				"option": [
+					"Discos",
+					"Pista",
+					"PDP",
+					"Cilindro",
+					"Cinta",
+					"Cluster",
+					"Caras"
+				],
+				"answer": [
+					"0",
+					"1",
+					"3",
+					"5",
+					"6"
+				],
+				"_id": "q07"
+			},
+			{
+				"number": "Pregunta 8",
+				"type": "multiple",
+				"title": "Las principales características de los monitores son: (Mantenga la tecla 'Ctrl' pulsada para seleccionar más de una respuesta).",
+				"option": [
+					"Dimensiones",
+					"Resolución",
+					"Monocromático - Color",
+					"Grosor",
+					"Frecuencia"
+				],
+				"answer": [
+					"0",
+					"1",
+					"2",
+					"4"
+				],
+				"_id": "q08"
+			},
+			{
+				"number": "Pregunta 9",
+				"type": "checkbox",
+				"title": "Según la tecnología de funcionamiento, las tarjetas de memoria las podemos dividir en:",
+				"option": [
+					"NOR: acceso aleatorio y recuperación de datos de hasta 1 byte",
+					"NAND: acceso secuencial y recuperación de datos de hasta 1 byte",
+					"NAND: acceso aleatorio y recuperación de datos en bloques (páginas)",
+					"NOR: acceso secuencial y recuperación de datos en bloques (páginas)",
+					"NAND: acceso secuencial y recuperación de datos en bloques (páginas)"
+				],
+				"answer": [
+					"0",
+					"4"
+				],
+				"_id": "q09"
+			},
+			{
+				"number": "Pregunta 10",
+				"type": "checkbox",
+				"title": "¿Qué tipos de impresoras existen según su tecnología de impresión",
+				"option": [
+					"Térmicas",
+					"Tinta sólida",
+					"Plóter",
+					"Inyección",
+					"Láser"
+				],
+				"answer": [
+					"0",
+					"3",
+					"4"
+				],
+				"_id": "q10"
+			}
+		]
+	}
