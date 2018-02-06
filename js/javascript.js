@@ -44,8 +44,12 @@ function gestionarXml(dadesXml){
 	document.getElementById("q3").innerHTML=xmlDoc.getElementsByTagName("title")[2].childNodes[0].nodeValue;
 	
 	//Recuperar las opciones de los select simples
-	//var opcionesSelect=[];
-	//var 
+	var opcionesSelect=[];
+	var numeroopciones=xmlDoc.getElementById("q03").getElementsByTagName("option).length;
+	alert(numeroopciones);
+									    
+									     
+	
 	
 	
 	
