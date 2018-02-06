@@ -43,6 +43,12 @@ function gestionarXml(dadesXml){
 	document.getElementById("h23").innerHTML=xmlDoc.getElementsByTagName("number")[2].childNodes[0].nodeValue;
 	document.getElementById("q3").innerHTML=xmlDoc.getElementsByTagName("title")[2].childNodes[0].nodeValue;
 	
+	//Recuperar las opciones de los select simples
+	//var opcionesSelect=[];
+	//var 
+	
+	
+	
 	document.getElementById("h24").innerHTML=xmlDoc.getElementsByTagName("number")[3].childNodes[0].nodeValue;
 	document.getElementById("q4").innerHTML=xmlDoc.getElementsByTagName("title")[3].childNodes[0].nodeValue;
 	
@@ -67,3 +73,8 @@ function gestionarXml(dadesXml){
 	document.getElementById("h210").innerHTML=xmlDoc.getElementsByTagName("number")[9].childNodes[0].nodeValue;
 	document.getElementById("q10").innerHTML=xmlDoc.getElementsByTagName("title")[9].childNodes[0].nodeValue;	
 }
+
+
+
+
+
