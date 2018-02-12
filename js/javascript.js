@@ -45,7 +45,7 @@ function gestionarXml(dadesXml){
 	
 	//Recuperar las opciones de los select simples
 	var opcionesSelect=[];
-	var numeroopciones=xmlDoc.getElementById("q03").getElementsByTagName("option).length;
+	var numeroopciones=xmlDoc.getElementById("q03").getElementsByTagName("option").length;
 	alert(numeroopciones);
 									    
 									     
