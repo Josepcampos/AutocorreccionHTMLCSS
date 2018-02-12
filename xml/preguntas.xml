@@ -16,10 +16,10 @@
 	<question id="q03"><number>Pregunta 3</number>
 		<type>select</type>
 			<title>¿Qué tecnología utiliza principalmente una impresora de tinta sólida?</title>
-				<option>Inyección</option1>
-				<option>Térmica</option1>
-				<option>Láser</option1>
-				<option>Marcado</option1>
+				<option>Inyección</option>
+				<option>Térmica</option>
+				<option>Láser</option>
+				<option>Marcado</option>
 				<answer>1</answer>
 	</question>
 	
