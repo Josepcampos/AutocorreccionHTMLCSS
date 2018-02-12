@@ -13,7 +13,7 @@ function cerrarExamen() {
 	return "Al salir del examen se perderan todos los datos\n¿Está seguro?";
 }
 //NO TOCAR	
-	var url = "https://rawgit.com/Josepcampos/Validacion_XML/master/xml.xml";
+	var url = "https://rawgit.com/Josepcampos/Validacion_XML/master/xml/preguntas.xml";
 
 	var xhttp = new XMLHttpRequest();
 	xhttp.onreadystatechange = function() {
