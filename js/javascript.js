@@ -51,6 +51,15 @@ function gestionarXml(dadesXml){
 	document.getElementById("q9").innerHTML=xmlDoc.getElementsByTagName("title")[8].childNodes[0].nodeValue;
 	document.getElementById("h210").innerHTML=xmlDoc.getElementsByTagName("number")[9].childNodes[0].nodeValue;
 	document.getElementById("q10").innerHTML=xmlDoc.getElementsByTagName("title")[9].childNodes[0].nodeValue;	
+
+	var arrayselect = [];
+	var numeroopciones = xmlDoc.getElementById("q03").getElementsByTagName("option").length;
+		for (var i = 0; i<numeroopciones; i++) {
+			arrayselect[i]=xmlDoc.getElementById("q03").getElementsByTagName("option)"[i].innerHTML;
+
+	alert(numeroopciones);
+						}								 
+
 }
 
 
