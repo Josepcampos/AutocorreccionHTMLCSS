@@ -1,3 +1,7 @@
+var min=10;
+var seg=0;
+var alerta=false;
+
 //FUNCIÓN AL ENTRAR AL EXAMEN DESDE INICIO.HTML O INSTRUCCIONES.HTML
 function goExamen(){
 	var a=confirm("Al pulsar 'Aceptar' serás redirigido al examen\n¿Estás preparado?");
@@ -59,6 +63,35 @@ function gestionarXml(dadesXml){
 		}
 	
 		
+}
+
+window.onload=function(){
+	setInterval(actualizarTime,1000);
+}
+	
+function actualizarTime(){
+		var alerta=true;
+		var segTimer;
+
+    if((min>=0) && (seg>=0)){   
+        if(seg<10){
+            segTimer="0"+seg;
+        }else{
+            segTimer=seg;
+        }
+        document.getElementById("timer").innerHTML=min+" : "+segTimer;
+        seg--; 
+        if(seg<0){
+            min--;
+            seg=59;
+        }  
+    }else{
+        document.getElementById("timer").innerHTML="0 : 00";        
+        if (!alerta){
+            alert("Se acabó el tiempo. Date prisa en enviar tus respuestas.");
+            alerta=true;
+    }
+	}
 }
 
 
