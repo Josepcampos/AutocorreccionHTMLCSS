@@ -75,16 +75,15 @@ var nOpts1=xmlDoc.getElementById("q03").getElementsByTagName('option').length;
 		sel.appendChild(opt);
 	}	
 
-var nOpts2=xmlDoc.getElementById("q04").getElementsByTagName('option').length;
-	alert(nOpts2);
-	var sel1 = document.getElementsByTagName("select")[1];
-	for (var j=0; j<nOpts2; j++) {
+var nOptsb=xmlDoc.getElementById("q03").getElementsByTagName('option').length;
+	var selb = document.getElementsByTagName("select")[1];
+	for (var j=0; j<nOpts1; j++) {
 		//oSelect[i]=xmlDoc.getElementById("q03").getElementsByTagName('option')[i].innerHTML; //EN CADA POSICIÓN DE i (1,2,...,n) SE ALMACENA UN OBJETO EN EL ARRAY VACÍO
-		//alert(oSelect[i]); ESTE ARRAY SERVIRÁ PARA CORREGIR
-		var opt2 = document.createElement("option");
-		opt2.value=j+1;
-		opt2.text=xmlDoc.getElementById("q04").getElementsByTagName('option')[j].innerHTML;
-		sel1.appendChild(opt2);
+		//alert(oSelect[i]);
+		var optb = document.createElement("option");
+		optb.value=i+1;
+		optb.text=xmlDoc.getElementById("q04").getElementsByTagName('option')[j].innerHTML;
+		selb.appendChild(optb);
 	}
 		
 } //FINAL PARSEAR
