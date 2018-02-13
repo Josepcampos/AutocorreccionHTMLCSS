@@ -39,14 +39,20 @@ input[type=radio], input[type=checkbox]{
 
 .logo {
 	position:absolute;
+	height:250px;
+	width:205px;
 	left:15%;
 	top:0;
+	background-image:url("../img/logo.png");
 }
 
-#bubbles {
-	list-style-type:none;
-	margin:0;
-	padding:0;
+.logo1 {
+	position:absolute;
+	height:250px;
+	width:205px;
+	left:15%;
+	top:0;
+	background-image:url("../img/logo.png");
 }
 
 /*Menu horizontal de la capa superior. Inicio - Instrucciones - Examen */
