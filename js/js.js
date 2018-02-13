@@ -73,17 +73,6 @@ var nOpts1=xmlDoc.getElementById("q03").getElementsByTagName('option').length;
 		opt.value=i+1;
 		opt.text=xmlDoc.getElementById("q03").getElementsByTagName('option')[i].innerHTML;
 		sel.appendChild(opt);
-	}	
-
-var nOptsb=xmlDoc.getElementById("q03").getElementsByTagName('option').length;
-	var selb = document.getElementsByTagName("select")[1];
-	for (var j=0; j<nOpts1; j++) {
-		//oSelect[i]=xmlDoc.getElementById("q03").getElementsByTagName('option')[i].innerHTML; //EN CADA POSICIÓN DE i (1,2,...,n) SE ALMACENA UN OBJETO EN EL ARRAY VACÍO
-		//alert(oSelect[i]);
-		var optb = document.createElement("option");
-		optb.value=i+1;
-		optb.text=xmlDoc.getElementById("q04").getElementsByTagName('option')[j].innerHTML;
-		selb.appendChild(optb);
 	}
 		
 } //FINAL PARSEAR
