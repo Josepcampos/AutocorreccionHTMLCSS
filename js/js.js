@@ -74,7 +74,7 @@ var nOpts1=xmlDoc.getElementById("q03").getElementsByTagName('option').length;
 		sel.appendChild(opt);
 	}
 
-var nOpts2=xmlDoc.getElementById("q04").GetElementsByTagName('option').length;
+var nOpts2=xmlDoc.getElementById("q04").getElementsByTagName('option').length;
 	alert(nOpts2);
 		
 } //FINAL PARSEAR
