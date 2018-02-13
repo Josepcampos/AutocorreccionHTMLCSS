@@ -82,8 +82,8 @@ var nOpts2=xmlDoc.getElementById("q04").getElementsByTagName('option').length;
 		//oSelect[i]=xmlDoc.getElementById("q03").getElementsByTagName('option')[i].innerHTML; //EN CADA POSICIÓN DE i (1,2,...,n) SE ALMACENA UN OBJETO EN EL ARRAY VACÍO
 		//alert(oSelect[i]); ESTE ARRAY SERVIRÁ PARA CORREGIR
 		var opt2 = document.createElement("option");
-		opt2.value=i+1;
-		opt2.text=xmlDoc.getElementById("q04").getElementsByTagName('option')[i].innerHTML;
+		opt2.value=j+1;
+		opt2.text=xmlDoc.getElementById("q04").getElementsByTagName('option')[j].innerHTML;
 		sel1.appendChild(opt2);
 	}
 		
