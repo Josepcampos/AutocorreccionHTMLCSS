@@ -43,8 +43,20 @@ input[type=radio], input[type=checkbox]{
 
 .logo {
 	position:absolute;
-	left:5%;
+	height:250px;
+	width:205px;
+	left:15%;
 	top:0;
+	background-image:url("../img/logo.png");
+}
+
+.logo1 {
+	position:absolute;
+	height:181px;
+	width:149px;
+	left:15%;
+	top:0;
+	background-image:url("../img/logo1.png");
 }
 
 /*Menu horizontal de la capa superior. Inicio - Instrucciones - Examen */
