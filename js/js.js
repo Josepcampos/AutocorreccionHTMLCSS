@@ -34,6 +34,7 @@ xhttp.send();
 //FUNCIÓN PARSEAR
 function gestionarXml(dadesXml){
   var xmlDoc = dadesXml.responseXML;
+	/*
   document.getElementById("h21").innerHTML = xmlDoc.getElementsByTagName("number")[0].childNodes[0].nodeValue;
   document.getElementById("q1").innerHTML = xmlDoc.getElementsByTagName("title")[0].childNodes[0].nodeValue;
   document.getElementById("h22").innerHTML = xmlDoc.getElementsByTagName("number")[1].childNodes[0].nodeValue;
@@ -54,15 +55,24 @@ function gestionarXml(dadesXml){
   document.getElementById("q9").innerHTML = xmlDoc.getElementsByTagName("title")[8].childNodes[0].nodeValue;
   document.getElementById("h210").innerHTML = xmlDoc.getElementsByTagName("number")[9].childNodes[0].nodeValue;
   document.getElementById("q10").innerHTML = xmlDoc.getElementsByTagName("title")[9].childNodes[0].nodeValue;
-  
+  */
+	for (var i=0;i<10;i++) {
+		document.getElementsByTagName("h2")[i].innerHTML = xmlDoc.getElementsByTagName("number")[i].innerHTML;
+ 		document.getElementsByTagName("p")[i].innerHTML = xmlDoc.getElementsByTagName("title")[i].innerHTML
+	}
 //SELECT
 //RECUPERAR OPCIONES  
 
   var nOpt=xmlDoc.getElementById("q03").getElementsByTagName('option').length;
-    //alert(nOpt);
+//select simple
+	var sel = document.getElementsByTagName("select")[0];
 	for (var i=0; i<nOpt; i++) {
-		oSelect[i]=xmlDoc.getElementById("q03").getElementsByTagName('option')[i].innerHTML; //EN CADA POSICIÓN DE i (1,2,...,n) SE ALMACENA UN OBJETO EN EL ARRAY VACÍO
-		alert(oSelect[i]);
+		//oSelect[i]=xmlDoc.getElementById("q03").getElementsByTagName('option')[i].innerHTML; //EN CADA POSICIÓN DE i (1,2,...,n) SE ALMACENA UN OBJETO EN EL ARRAY VACÍO
+		//alert(oSelect[i]);
+		var opt = document.createElement("option");
+		opt.value=i+1;
+		opt.text=xmlDoc.getElementById("q03").getElementsByTagName('option')[i].innerHTML;
+		sel.appendChild(opt);
 	}	
 		
 		
