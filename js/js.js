@@ -63,7 +63,7 @@ function gestionarXml(dadesXml){
 //SELECT
 //RECUPERAR OPCIONES  
 
-  var nOpts1=xmlDoc.getElementById("q03").getElementsByTagName('option').length;
+var nOpts1=xmlDoc.getElementById("q03").getElementsByTagName('option').length;
 //select simple
 	var sel = document.getElementsByTagName("select")[0];
 	for (var i=0; i<nOpts1; i++) {
@@ -76,12 +76,14 @@ function gestionarXml(dadesXml){
 	}	
 
 var nOpts2=xmlDoc.getElementById("q04").getElementsByTagName('option').length;
-	var sel1=document.getElementsByTagName("select")[1];
+	var sel1 = document.getElementsByTagName("select")[1];
 	for (var j=0; j<nOpts2; j++) {
-		var opt1 = document.createElement("option");
-		opt1.value=j+1;
-		opt1.text=xmlDoc.getElementById("q03").getElementsByTagName('option')[i].innerHTML;
-		sel1.appendChild(opt1);
+		//oSelect[i]=xmlDoc.getElementById("q03").getElementsByTagName('option')[i].innerHTML; //EN CADA POSICIÓN DE i (1,2,...,n) SE ALMACENA UN OBJETO EN EL ARRAY VACÍO
+		//alert(oSelect[i]); ESTE ARRAY SERVIRÁ PARA CORREGIR
+		var opt2 = document.createElement("option");
+		opt2.value=i+1;
+		opt2.text=xmlDoc.getElementById("q04").getElementsByTagName('option')[i].innerHTML;
+		sel1.appendChild(opt2);
 	}
 		
 } //FINAL PARSEAR
