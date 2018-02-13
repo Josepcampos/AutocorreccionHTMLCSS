@@ -1,12 +1,13 @@
 var min=10;
 var seg=0;
-var alerta=false; 
+var alerta=false;
+var oSelect = new Array();
 
 //FUNCIÓN AL ENTRAR AL EXAMEN DESDE INICIO.HTML O INSTRUCCIONES.HTML
 function goExamen(){
 	var a=confirm("Al pulsar 'Aceptar' serás redirigido al examen\n¿Estás preparado?");
 	if (a==true){
-		window.location="examen.html";
+		window.location="https://rawgit.com/Josepcampos/Validacion_XML/master/html/examen.html";
 	} else {
 		return false;
 	}
@@ -17,7 +18,7 @@ function cerrarExamen() {
 	return "Al salir del examen se perderan todos los datos\n¿Está seguro?";
 }
 
-//FUNCIÓN QUE TOMA EL FICHERO XML
+//GESTIÓN FICHERO XML
 var url ="https://rawgit.com/Josepcampos/Validacion_XML/master/xml/preguntas.xml"; //URL DEL FICHERO XML DE RAWGIT
 
 var xhttp = new XMLHttpRequest();
@@ -29,7 +30,7 @@ xhttp.onreadystatechange = function() {
 };
 xhttp.open("GET", url, true);
 xhttp.send();
-
+	
 //FUNCIÓN PARSEAR
 function gestionarXml(dadesXml){
   var xmlDoc = dadesXml.responseXML;
@@ -54,16 +55,18 @@ function gestionarXml(dadesXml){
   document.getElementById("h210").innerHTML = xmlDoc.getElementsByTagName("number")[9].childNodes[0].nodeValue;
   document.getElementById("q10").innerHTML = xmlDoc.getElementsByTagName("title")[9].childNodes[0].nodeValue;
   
-  var optionSelect = new Array();
+//SELECT
+//RECUPERAR OPCIONES  
+
   var nOpt=xmlDoc.getElementById("q03").innerHTML=xmlDoc.getElementById("q03").getElementsByTagName('option').length;
     //alert(nOpt);
 	for (var i=0; i<nOpt; i++) {
-		optionSelect[i]=xmlDoc.getElementById("q03").innerHTML=xmlDoc.getElementById("q03").getElementsByTagName('option')[i].innerHTML;
-		//alert(optionSelect[i]);
-		}
-	
+		oSelect[i]=xmlDoc.getElementById("q03").getElementsByTagName('option')[i].innerHTML; //EN CADA POSICIÓN DE i (1,2,...,n) SE ALMACENA UN OBJETO EN EL ARRAY VACÍO
+		alert(oSelect[i]);
+	}	
 		
-}
+		
+} //FINAL PARSEAR
 
 window.onload=function(){
 	setInterval(actualizarTime,1000);
@@ -92,8 +95,4 @@ function actualizarTime(){
             alerta=true;
     }
 	}
-}
-
-
-
-
+} //FIN ONLOAD
