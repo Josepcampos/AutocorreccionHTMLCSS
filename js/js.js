@@ -76,6 +76,7 @@ var nOpts1=xmlDoc.getElementById("q03").getElementsByTagName('option').length;
 	}	
 
 var nOpts2=xmlDoc.getElementById("q04").getElementsByTagName('option').length;
+	alert(nOpts2);
 	var sel1 = document.getElementsByTagName("select")[1];
 	for (var j=0; j<nOpts2; j++) {
 		//oSelect[i]=xmlDoc.getElementById("q03").getElementsByTagName('option')[i].innerHTML; //EN CADA POSICIÓN DE i (1,2,...,n) SE ALMACENA UN OBJETO EN EL ARRAY VACÍO
