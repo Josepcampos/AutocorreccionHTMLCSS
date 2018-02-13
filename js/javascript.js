@@ -1,6 +1,6 @@
 var min=10;
 var seg=0;
-var alerta=false;
+var alerta=false; 
 
 //FUNCIÓN AL ENTRAR AL EXAMEN DESDE INICIO.HTML O INSTRUCCIONES.HTML
 function goExamen(){
