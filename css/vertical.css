@@ -1,0 +1,142 @@
+html, body {
+	height:100%;
+	width:100%;
+	padding:0px;
+	margin:0px;
+}
+
+body {
+	background-color:#D5D5D5;
+	font-family:Arial, "Times New Roman", serif;
+	font-size:4vw;
+}
+
+input[type=radio], input[type=checkbox]{
+	height:50px;
+	width:50px;
+}
+
+.arriba {
+	position:relative;
+	top:0;
+	width:100%;
+	height:300px;
+	background-color:#D5D5D5;
+	border-bottom:1px solid black;
+}
+
+.arribaexamen {
+	position:relative;
+	top:0;
+	right:0;
+	width:100%;
+	height:200px;
+	background-color:#D5D5D5;
+	border-bottom:1px solid black;
+}
+
+.menu {
+	position:absolute;
+	bottom:0;
+	right:0;
+}
+
+.divbubbles {
+	position:absolute;
+	left:5%;
+	top:0;
+}
+
+#bubbles {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+/*Menu horizontal de la capa superior. Inicio - Instrucciones - Examen */
+#horizontal {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color:#96858F;
+}
+
+.hori {
+	float:left;
+	cursor:pointer;
+}
+
+.hori a {
+	display:block;
+	color:white;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+}
+
+.fontsize {
+	font-size:4vw;
+}
+
+/*No puede haber un a href con un confirm para elegir no entrar en el enlace. Se crea un div con la misma estética y se le da la función de enlace*/
+#examendiv {
+	display:block;
+	color:white;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+}
+
+#examendiv:hover:not(.active) {
+	background-color:#607993;
+}
+
+.hori a:hover:not(.active){
+	background-color:#607993;
+	transition: background-color .3s;
+}
+
+.active {
+	background-color: #9099A2;
+}
+/* Fin menu horizontal */
+
+.divprincipal {
+	position:relative;
+	top:0;
+	left:10%;
+	height:100%;
+	width:100%;
+}
+
+/*Menu vertical del examen. Cada enlace es un acceso directo a cada pregunta*/
+#vertical {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	width:8%;
+	background-color:#96858F;
+	position:fixed;
+	overflow:auto;
+	text-align:center;
+}
+
+.vert1 a {
+	display:block;
+	color:white;
+	margin:5px;
+	padding:5px 5px;
+	text-decoration:none;
+}
+
+.vert a {
+	display:none;
+}
+
+.vert1 a:hover {
+	color:white;
+	background-color:#607993;
+	transition:background-color .3s;
+}
+/*Fin menu vertical fixed de enlaces*/
