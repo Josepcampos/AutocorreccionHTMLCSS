@@ -7,7 +7,7 @@ var oSelect = new Array();
 function goExamen(){
 	var a=confirm("Al pulsar 'Aceptar' serás redirigido al examen\n¿Estás preparado?");
 	if (a==true){
-		window.location="https://rawgit.com/Josepcampos/Validacion_XML/master/html/examen.html";
+		window.location="examen.html";
 	} else {
 		return false;
 	}
