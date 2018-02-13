@@ -131,3 +131,17 @@ input[type=radio], input[type=checkbox]{
 	transition:background-color .3s;
 }
 /*Fin menu vertical fixed de enlaces*/
+
+/*RELOJ*/
+#reloj {
+	color:white;
+	text-align:center;
+	position:fixed;
+	margin:1%;
+	padding:1%;
+	background-color:#96858F;
+	top:0;
+	left:0;
+	border:1px solid white;
+	border-radius:3px;
+}
