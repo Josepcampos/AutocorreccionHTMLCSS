@@ -73,9 +73,6 @@ var nOpts1=xmlDoc.getElementById("q03").getElementsByTagName('option').length;
 		opt.text=xmlDoc.getElementById("q03").getElementsByTagName('option')[i].innerHTML;
 		sel.appendChild(opt);
 	}
-
-var nOpts2=xmlDoc.getElementById("q04").getElementsByTagName('option').length;
-	alert(nOpts2);
 		
 } //FINAL PARSEAR
 
