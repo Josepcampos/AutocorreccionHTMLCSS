@@ -37,11 +37,11 @@ input[type=radio], input[type=checkbox]{
 	right:0;
 }
 
-/*.divbubbles {
+.logo {
 	position:absolute;
-	left:5%;
+	left:15%;
 	top:0;
-}*/
+}
 
 #bubbles {
 	list-style-type:none;
