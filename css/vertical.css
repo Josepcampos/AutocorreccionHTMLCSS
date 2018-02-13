@@ -140,3 +140,23 @@ input[type=radio], input[type=checkbox]{
 	transition:background-color .3s;
 }
 /*Fin menu vertical fixed de enlaces*/
+
+/*Reloj*/
+#reloj {
+	text-align:center;
+	position:fixed;
+	margin:1%;
+	padding:1%;
+	background-color:#96858F;
+	color:white;
+	z-index:1;
+	width:12%;
+	bottom:1%;
+	right:0;
+	border:1px solid white;
+	border-radius:3px;
+}
+
+#tiempodisplay {
+	display:none;
+}
