@@ -60,11 +60,10 @@ function gestionarXml(dadesXml){
 		document.getElementsByTagName("h2")[i].innerHTML = xmlDoc.getElementsByTagName("number")[i].innerHTML;
  		document.getElementsByTagName("p")[i].innerHTML = xmlDoc.getElementsByTagName("title")[i].innerHTML
 	}
-//SELECT
+	
+//SELECT SIMPLE
 //RECUPERAR OPCIONES  
-
 var nOpts1=xmlDoc.getElementById("q03").getElementsByTagName('option').length;
-//select simple
 	var sel = document.getElementsByTagName("select")[0];
 	for (var i=0; i<nOpts1; i++) {
 		//oSelect[i]=xmlDoc.getElementById("q03").getElementsByTagName('option')[i].innerHTML; //EN CADA POSICIÓN DE i (1,2,...,n) SE ALMACENA UN OBJETO EN EL ARRAY VACÍO
@@ -74,6 +73,9 @@ var nOpts1=xmlDoc.getElementById("q03").getElementsByTagName('option').length;
 		opt.text=xmlDoc.getElementById("q03").getElementsByTagName('option')[i].innerHTML;
 		sel.appendChild(opt);
 	}
+
+var nOpts2=xmlDoc.getElementById("q04").GetElementsByTagName('option').length;
+	alert(nOpts2);
 		
 } //FINAL PARSEAR
 
