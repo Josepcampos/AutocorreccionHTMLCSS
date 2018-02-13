@@ -41,16 +41,10 @@ input[type=radio], input[type=checkbox]{
 	right:0;
 }
 
-.divbubbles {
+.logo {
 	position:absolute;
 	left:5%;
 	top:0;
-}
-
-#bubbles {
-	list-style-type:none;
-	margin:0;
-	padding:0;
 }
 
 /*Menu horizontal de la capa superior. Inicio - Instrucciones - Examen */
