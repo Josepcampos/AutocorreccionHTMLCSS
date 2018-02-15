@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<questions>
+<question id="q01">
+<number>Pregunta 1</number>
+<type>text</type>
+<title>I. ¿Cómo se llama el enemigo principal del juego?</title>
+<answer>Garland</answer>
+</question>
+<question id="q02">
+<number>Pregunta 2</number>
+<type>text</type>
+<title>II. ¿Qué titulo recibe el emperador enemigo?</title>
+<answer>Emperador</answer>
+</question>
+<question id="q03">
+<number>Pregunta 3</number>
+<type>select</type>
+<title>III. ¿Cual es la profesión más fuerte?</title>
+<option>Asesino</option>
+<option>Caballero Cebolla</option>
+<option>Ninja</option>
+<option>Freelancer</option>
+<answer>1</answer>
+</question>
+<question id="q04">
+<number>Pregunta 4</number>
+<type>select</type>
+<title>
+IV. ¿Qué personaje te traiciona en repetidas ocasiones?
+</title>
+<option>Golbez</option>
+<option>Edge</option>
+<option>Cain</option>
+<option>Dio Brando</option>
+<answer>2</answer>
+</question>
+<question id="q05">
+<number>Pregunta 5</number>
+<type>radio</type>
+<title>V. ¿Qué hace Gilgamesh cuando está muy debilitado?</title>
+<option>Se rinde y acepta su derrota.</option>
+<option>Se enfada y nos ataca con un bonus de daño.</option>
+<option>Nos engaña para echarse Prisa, Escudo y Coraza.</option>
+<option>Huye del combate.</option>
+<answer>2</answer>
+</question>
+<question id="q06">
+<number>Pregunta 6</number>
+<type>radio</type>
+<title>
+V. ¿A quien pertenece la siguiente frase? "No hay nada como el sonido de cientos de voces gritando al unísono"
+</title>
+<option>Kefka</option>
+<option>Kafka</option>
+<option>Shadow</option>
+<answer>0</answer>
+</question>
+<question id="q07">
+<number>Pregunta 7</number>
+<type>multiple</type>
+<title>
+VII. ¿Cuales de los siguientes personajes tienen un pasado "trágico"?
+</title>
+<option>Cloud</option>
+<option>Barret</option>
+<option>Tifa</option>
+<option>Vincent</option>
+<option>Yuffie</option>
+<option>Sephirot</option>
+<option>Red XIII</option>
+<answer>0</answer>
+<answer>1</answer>
+<answer>3</answer>
+<answer>5</answer>
+<answer>6</answer>
+</question>
+<question id="q08">
+<number>Pregunta 8</number>
+<type>multiple</type>
+<title>
+VIII. ¿Cómo se llaman los personajes que interpretamos en el pasado?
+</title>
+<option>Laguna</option>
+<option>Kiros</option>
+<option>Cid</option>
+<option>Ward</option>
+<option>Seifer</option>
+<answer>0</answer>
+<answer>1</answer>
+<answer>2</answer>
+</question>
+<question id="q09">
+<number>Pregunta 9</number>
+<type>checkbox</type>
+<title>
+IX. A la siguiente historia..."Ipsen y Colin eran dos amigos que trabajaban en Treno. Un día Ipsen recibió una carta. Estaba empapada de lluvia y casi no se podía leer. Las únicas palabras que pudo distinguir fueron "vuelve a casa". Sin saber muy bien por qué, Ipsen pidió vacaciones, se preparó y emprendió su viaje. Cruzó mares y montañas. Bajo la "niebla" fue atacado por monstruos... Pero iba con Colin y entre ambos lo superaron todo. Algún tiempo después Ipsen cayó en la cuenta y le preguntó a Colin: "Y tú, ¿por qué viniste?". A lo que Colin le respondió..."¿Quien cuenta la historia, y cómo termina?"
+</title>
+<option>Yitan</option>
+<option>Freija</option>
+<option>Garnet</option>
+<option>"Porque tú dijiste que me dejarías solo".</option>
+<option>"Porque tú dijiste que te ibas".</option>
+<option>"Porque quería acompañarte".</option>
+<answer>0</answer>
+<answer>4</answer>
+</question>
+<question id="q10">
+<number>Pregunta 10</number>
+<type>checkbox</type>
+<title>
+X. ¿Cuales de los siguientes espíritus están presentes en este juego?
+</title>
+<option>Ifrit</option>
+<option>Titan</option>
+<option>Fénix</option>
+<option>Shiva</option>
+<option>Bahamut</option>
+<answer>0</answer>
+<answer>3</answer>
+<answer>4</answer>
+</question>
+</questions>
