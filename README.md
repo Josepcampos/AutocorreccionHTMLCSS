@@ -1,4 +1,8 @@
 ### URL XML http://rawgit.com/Focxis/Preguntitas/master/xml/preguntas.xml
+
+### URL XML FOCXIS https://rawgit.com/Josepcampos/Validacion_XML/master/xml/xml1.xml
+
+
 # AutocorreccionHTMLCSS
 
 ## Crear una aplicación web con las siguientes instrucciones:
