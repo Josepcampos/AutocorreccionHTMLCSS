@@ -4,19 +4,19 @@
 <question id="q01">
 <number>Pregunta 1</number>
 <type>text</type>
-<title>I. ¿Cómo se llama el enemigo principal del juego?</title>
+<title>¿Cómo se llama el enemigo principal del juego?</title>
 <answer>Garland</answer>
 </question>
 <question id="q02">
 <number>Pregunta 2</number>
 <type>text</type>
-<title>II. ¿Qué titulo recibe el emperador enemigo?</title>
+<title>¿Qué título recibe el emperador enemigo?</title>
 <answer>Emperador</answer>
 </question>
 <question id="q03">
 <number>Pregunta 3</number>
 <type>select</type>
-<title>III. ¿Cual es la profesión más fuerte?</title>
+<title>III. ¿Cuál es la profesión más fuerte?</title>
 <option>Asesino</option>
 <option>Caballero Cebolla</option>
 <option>Ninja</option>
@@ -27,7 +27,7 @@
 <number>Pregunta 4</number>
 <type>select</type>
 <title>
-IV. ¿Qué personaje te traiciona en repetidas ocasiones?
+¿Qué personaje te traiciona en repetidas ocasiones?
 </title>
 <option>Golbez</option>
 <option>Edge</option>
@@ -38,7 +38,7 @@ IV. ¿Qué personaje te traiciona en repetidas ocasiones?
 <question id="q05">
 <number>Pregunta 5</number>
 <type>radio</type>
-<title>V. ¿Qué hace Gilgamesh cuando está muy debilitado?</title>
+<title>¿Qué hace Gilgamesh cuando está muy debilitado?</title>
 <option>Se rinde y acepta su derrota.</option>
 <option>Se enfada y nos ataca con un bonus de daño.</option>
 <option>Nos engaña para echarse Prisa, Escudo y Coraza.</option>
@@ -49,7 +49,7 @@ IV. ¿Qué personaje te traiciona en repetidas ocasiones?
 <number>Pregunta 6</number>
 <type>radio</type>
 <title>
-V. ¿A quien pertenece la siguiente frase? "No hay nada como el sonido de cientos de voces gritando al unísono"
+¿A quién pertenece la siguiente frase? "No hay nada como el sonido de cientos de voces gritando al unísono"
 </title>
 <option>Kefka</option>
 <option>Kafka</option>
@@ -60,7 +60,7 @@ V. ¿A quien pertenece la siguiente frase? "No hay nada como el sonido de ciento
 <number>Pregunta 7</number>
 <type>multiple</type>
 <title>
-VII. ¿Cuales de los siguientes personajes tienen un pasado "trágico"?
+¿Cuáles de los siguientes personajes tienen un pasado "trágico"?
 </title>
 <option>Cloud</option>
 <option>Barret</option>
@@ -79,7 +79,7 @@ VII. ¿Cuales de los siguientes personajes tienen un pasado "trágico"?
 <number>Pregunta 8</number>
 <type>multiple</type>
 <title>
-VIII. ¿Cómo se llaman los personajes que interpretamos en el pasado?
+¿Cómo se llaman los personajes que interpretamos en el pasado?
 </title>
 <option>Laguna</option>
 <option>Kiros</option>
@@ -94,7 +94,7 @@ VIII. ¿Cómo se llaman los personajes que interpretamos en el pasado?
 <number>Pregunta 9</number>
 <type>checkbox</type>
 <title>
-IX. A la siguiente historia..."Ipsen y Colin eran dos amigos que trabajaban en Treno. Un día Ipsen recibió una carta. Estaba empapada de lluvia y casi no se podía leer. Las únicas palabras que pudo distinguir fueron "vuelve a casa". Sin saber muy bien por qué, Ipsen pidió vacaciones, se preparó y emprendió su viaje. Cruzó mares y montañas. Bajo la "niebla" fue atacado por monstruos... Pero iba con Colin y entre ambos lo superaron todo. Algún tiempo después Ipsen cayó en la cuenta y le preguntó a Colin: "Y tú, ¿por qué viniste?". A lo que Colin le respondió..."¿Quien cuenta la historia, y cómo termina?"
+A la siguiente historia..."Ipsen y Colin eran dos amigos que trabajaban en Treno. Un día Ipsen recibió una carta. Estaba empapada de lluvia y casi no se podía leer. Las únicas palabras que pudo distinguir fueron "vuelve a casa". Sin saber muy bien por qué, Ipsen pidió vacaciones, se preparó y emprendió su viaje. Cruzó mares y montañas. Bajo la "niebla" fue atacado por monstruos... Pero iba con Colin y entre ambos lo superaron todo. Algún tiempo después Ipsen cayó en la cuenta y le preguntó a Colin: "Y tú, ¿por qué viniste?". A lo que Colin le respondió..."¿Quien cuenta la historia, y cómo termina?"
 </title>
 <option>Yitan</option>
 <option>Freija</option>
@@ -109,7 +109,7 @@ IX. A la siguiente historia..."Ipsen y Colin eran dos amigos que trabajaban en T
 <number>Pregunta 10</number>
 <type>checkbox</type>
 <title>
-X. ¿Cuales de los siguientes espíritus están presentes en este juego?
+¿Cuáles de los siguientes espíritus están presentes en este juego?
 </title>
 <option>Ifrit</option>
 <option>Titan</option>
