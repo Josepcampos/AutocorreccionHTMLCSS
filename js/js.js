@@ -73,6 +73,14 @@ var nOpts1=xmlDoc.getElementById("q03").getElementsByTagName('option').length;
 		opt.text=xmlDoc.getElementById("q03").getElementsByTagName('option')[i].innerHTML;
 		sel.appendChild(opt);
 	}
+
+var nOpts2=xmlDoc.getElementById("q04").getElementsByTagName('option').length;
+	var sela = document.getElementsByTagName("select")[1];
+	for (var j=0; j<nOpts2; j++) {
+		var opta = document.createElement("option");
+		opta.value=j+1;
+		opta.text=xmlDoc.getElementById("q04").getElementsByTagName('option)[j].innerHTML;
+		sela.options.add(opta);
 		
 } //FINAL PARSEAR
 
