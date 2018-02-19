@@ -92,14 +92,3 @@ function actualizarTime(){
     }
 	}
 }
-        
-   
-         
-
-	
-		
-
-
-
-
-
