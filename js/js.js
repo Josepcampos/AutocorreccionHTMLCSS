@@ -19,7 +19,7 @@ function cerrarExamen() {
 }
 
 //GESTIÓN FICHERO XML
-var url ="https://rawgit.com/Josepcampos/Validacion_XML/master/xml/xml1.xml"; //URL DEL FICHERO XML DE RAWGIT
+var url ="https://rawgit.com/Josepcampos/Validacion_XML/master/xml/xml1.xml";  //URL DEL FICHERO XML DE RAWGIT
 
 var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
