@@ -17,7 +17,7 @@
 <question id="q03">
 <number>Pregunta 3</number>
 <type>select</type>
-<title>III. ¿Cuál es la profesión más fuerte?</title>
+<title>¿Cuál es la profesión más fuerte?</title>
 <option>Asesino</option>
 <option>Caballero Cebolla</option>
 <option>Ninja</option>
