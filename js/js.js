@@ -79,7 +79,7 @@ var nOpts2=xmlDoc.getElementById("q04").getElementsByTagName('option').length;
 	for (var j=0; j<nOpts2; j++) {
 		var opta = document.createElement("option");
 		opta.value=j+1;
-		opta.text=xmlDoc.getElementById("q04").getElementsByTagName('option)[j].innerHTML;
+		opta.text=xmlDoc.getElementById("q04").getElementsByTagName('option')[j].innerHTML;
 		sela.options.add(opta);
 		
 } //FINAL PARSEAR
