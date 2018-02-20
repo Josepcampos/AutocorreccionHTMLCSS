@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT questions (question)+>
+<!ELEMENT question (number,type,title,option*,answer+)>
+<!ATTLIST question id ID #REQUIRED>
+<!ELEMENT number (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT option (#PCDATA)>
+<!ELEMENT answer (#PCDATA)>
