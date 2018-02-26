@@ -1,7 +1,6 @@
 var min=10;
 var seg=0;
 var alerta=false;
-var oSelect = new Array();
 
 //FUNCIÓN AL ENTRAR AL EXAMEN DESDE INICIO.HTML O INSTRUCCIONES.HTML
 function goExamen(){
@@ -60,6 +59,8 @@ var nOpts2=xmlDoc.getElementById("q04").getElementsByTagName('option').length;
 		sela.options.add(opta);
 	}
 
+//RADIO BUTTONS
+//RECUPERAR OPCIONES
 var nOpts3=xmlDoc.getElementById("q05").getElementsByTagName('option').length;
 	var selb = document.formu.pp5;
 	for (var k=0;k<nOpts3;k++) {
