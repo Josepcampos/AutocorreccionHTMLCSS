@@ -1,7 +1,6 @@
 var min=10;
 var seg=0;
 var alerta=false;
-var oSelect = new Array();
 
 //FUNCIÓN AL ENTRAR AL EXAMEN DESDE INICIO.HTML O INSTRUCCIONES.HTML
 function goExamen(){
@@ -61,6 +60,17 @@ var nOpts2=xmlDoc.getElementById("q04").getElementsByTagName('option').length;
 		opta.text=xmlDoc.getElementById("q04").getElementsByTagName('option')[j].innerHTML;
 		sela.options.add(opta);
 	}
+
+//RADIO
+//RECUPERAR OPCIONES
+var nOpts3=xmlDOc.getElementById("q05").getElementsByTagName('option').length;
+	var selb = document.formu.pp5;
+	for (var k=0;k<nOpts3;k++){
+		var optb = document.createElement("option");
+		optb.value=k+1;
+		optb.text=xmlDoc.getElementById("q05").getElementsByTagName('option')[k].innerHTML;
+		selb.optinos.add(optb);
+	
 		
 } //FINAL PARSEAR
 
