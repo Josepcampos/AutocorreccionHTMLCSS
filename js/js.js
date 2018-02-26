@@ -66,7 +66,7 @@ var nOpts3=xmlDoc.getElementById("q05").getElementsByTagName('option').length;
 		var optb = document.createElement("radio");
 		optb.value=k+1;
 		optb.text=xmlDoc.getElementById("q05").getElementsByTagName('option')[k].innerHTML;
-		selb.options.add(optb);
+		selb.appendChild(optb);
 	}
 	
 } //FINAL PARSEAR
