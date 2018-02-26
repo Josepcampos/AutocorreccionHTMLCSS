@@ -1,6 +1,6 @@
 ### URL XML http://rawgit.com/Focxis/Preguntitas/master/xml/preguntas.xml
 
-### URL XML FOCXIS https://rawgit.com/Josepcampos/Validacion_XML/master/xml/xml1.xml
+### URL XML FOCXIS https://rawgit.com/Josepcampos/Validacion_XML/master/xml/xml.xml
 
 
 # AutocorreccionHTMLCSS
