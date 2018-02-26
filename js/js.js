@@ -45,8 +45,6 @@ function gestionarXml(dadesXml){
 var nOpts1=xmlDoc.getElementById("q03").getElementsByTagName('option').length;
 	var sel = document.getElementsByTagName("select")[0];
 	for (var i=0; i<nOpts1; i++) {
-		//oSelect[i]=xmlDoc.getElementById("q03").getElementsByTagName('option')[i].innerHTML; //EN CADA POSICIÓN DE i (1,2,...,n) SE ALMACENA UN OBJETO EN EL ARRAY VACÍO
-		//alert(oSelect[i]);
 		var opt = document.createElement("option");
 		opt.value=i+1;
 		opt.text=xmlDoc.getElementById("q03").getElementsByTagName('option')[i].innerHTML;
