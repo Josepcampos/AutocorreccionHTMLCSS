@@ -59,6 +59,15 @@ var nOpts2=xmlDoc.getElementById("q04").getElementsByTagName('option').length;
 		opta.text=xmlDoc.getElementById("q04").getElementsByTagName('option')[j].innerHTML;
 		sela.options.add(opta);
 	}
+
+var nOpts3=xmlDoc.getElementById("q05").getElementsByTagName('option').length;
+	var selb = document.formu.pp5;
+	for (var k=0;k<nOpts3;k++) {
+		var optb = document.createElement("radio");
+		optb.value=k+1;
+		optb.text=xmlDoc.getElementById("q05").getElementsByTagName('option')[k].innerHTML;
+		selb.options.add(optb);
+	}
 	
 } //FINAL PARSEAR
 
