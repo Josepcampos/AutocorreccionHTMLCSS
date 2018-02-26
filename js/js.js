@@ -61,11 +61,7 @@ var nOpts2=xmlDoc.getElementById("q04").getElementsByTagName('option').length;
 		opta.text=xmlDoc.getElementById("q04").getElementsByTagName('option')[j].innerHTML;
 		sela.options.add(opta);
 	}
-
-//RADIO
-//RECUPERAR OPCIONES
-
-		
+	
 } //FINAL PARSEAR
 
 window.onload=function(){
