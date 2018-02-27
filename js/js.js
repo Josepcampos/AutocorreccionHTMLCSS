@@ -65,12 +65,10 @@ var nOpts3=xmlDoc.getElementById("q05").getElementsByTagName('option').length;
 	var selb = document.formu.pp5;
 	for (var k=0;k<nOpts3;k++) {
 		var optb = document.createElement("input");
-		var label1 = document.createElement("label");
 		input.type="radio";
 		optb.value=k+1;
 		optb.text=xmlDoc.getElementById("q05").getElementsByTagName('option')[k].innerHTML;
 		selb.appendChild(optb);
-		selb.appenChild(label1);
 	}
 	
 } //FINAL PARSEAR
